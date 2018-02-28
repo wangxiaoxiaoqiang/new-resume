@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="style.css" rel="stylesheet"  />
+<!--<script src="./sea/sea.js"></script>-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/starmove.js"></script>
+<!--<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>-->
+<script>
+	var f = true;
+//	seajs.use("./js/starmove.js",function(ex){
+//		
+//		ex.show();
+//		
+//		})
+	$(function(){
+		
+		$(window).on('scroll',function(a){
+			
+			
+			var hand_up = $(document).scrollTop()+193;
+
+			
+			var com_up = $(document).scrollTop()+820;
+
+			
+			if($('.handImg')){
+
+				$('.handImg').css({"backgroundPosition":"55% "+hand_up+"px"});
+			}
+
+			if($('.qiu2')){
+
+				$('.qiu2').css({"backgroundPosition":"89% "+com_up+"px"});
+			}
+
+		
+//			if(f){
+//					change($(document).scrollTop());
+//					
+//				}
+
+		
+			
+	})
+	
+
+		
+	})
+</script>
+</head>
+
+<body style="overflow:-Scroll;overflow-x:hidden" >
+	<div id="warp">
+    	<div id="max-box">
+        	<div id="home"  >
+            	<div class="handImg" ></div>
+            	<div class="arrow" ></div>
+                <div class="qiu1Img" ></div>
+                <div class="qiu2Img" ></div>
+                <div class="qiu3Img" ></div>
+            </div>
+            <!--首页-->
+            <div id="about" >
+                
+                <div class="intro" ></div>
+                <div class="contents" >
+                	<div>
+	                	<h2>工作经验</h2>
+	                	<ul>
+	                		<li>
+	                			<p>上海维信荟智金融科技有限公司 / UI设计师</p>
+	                			<span>2016.10-至今</span>
+	                		</li>
+	                		<li>
+	                			<p>软通动力信息技术（集团）有限公司 / UI设计师</p>
+	                			<span>2015.7-2016.9</span>
+	                			
+	                		</li>
+	                		<li>
+	                			<p>湖北生物科技技术职业技术学院</p>
+	                			<span>2013.9-2015.3</span>
+	                		</li>
+	                	</ul>
+                	</div>
+                	<div class="programs">
+	                	<h2>项目经验</h2>
+	                	<ul>
+	                		<li>
+	                			<p>豆豆钱 /豆豆花</p>
+	                			<span>
+	                			金融借贷类型app。主要负责app界面设计及产品运营推广设计。参与项
+	                			目讨论，绘制不同风格界面概念图；定制UI设计规范，完成产品迭代；输
+	                			出不同界面尺寸的设计图及切图；配合前端工程师完成界面适配，并跟进
+	                			效果呈现；完成推广活动设计及banner图、热点图的设计；完成产品周
+	                			边设计；
+	                			</span>
+	                		</li>
+	                		<li>
+	                			<p>游惠宝免费Wi-Fi(奥海城项目)</p>
+	                			<span>参与项目讨论，根据项目讨论完成产品原型设计，再决定产品界面风格，定制设计规范，并配合产品经理
+	                				进行项目提案。</span>
+	                		</li>
+	                		<li>
+	                			<p>百问百答</p>
+	                			<span>教学类app。参与项目讨论，根据产品原型完成界面设计，并配合产品经理进行项目提案。</span>
+	                		</li>
+	                		<li>
+	                			<p>武汉政务云项目</p>
+	                			<span>政务网站。参与项目讨论，定制设计风格，完成不同类目的界面设计，输出设计文档，跟进项目进展，确保demo与效果图一致。</span>
+	                		</li>
+	                	</ul>
+                	</div>
+                </div>
+            	<div class="qiu2" style=" background-position:89% 68%" ></div>
+            </div>
+            <div id="experience" >
+		  <div class="one">
+			  	<p id="head">
+			        <!--<span>UI作品展示</span>-->
+			    </p>
+			  	<ul>
+				  <li>
+					  <a href="doudou.html">
+					  <p class="zzc_bj">
+						  <div class="zzc">
+							  <span></span>
+							  <span></span>
+							  <span></span>
+					          <span>doudou cash</span>
+					          <span>设计作品</span>
+							  <span></span>
+						  </div>
+					  </p>
+					  </a>
+				  </li>
+				  <li>
+					  <a href="home.html">
+					  <p class="zzc_bj">
+					  <div class="zzc">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span>智能家居</span>
+						  <span>设计作品</span>
+						  <span></span>
+					  </div>
+					  </p>
+					  </a>
+				  </li>
+				  <li>
+					  <a href="aohai.html">
+					  <p class="zzc_bj">
+					  <div class="zzc">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span>游惠宝</span>
+						  <span>设计作品</span>
+						  <span></span>
+					  </div>
+					  </p>
+					  </a>
+				  </li>
+				  <li>
+					  <a href="zhengwu.html">
+					  <p class="zzc_bj">
+					  <div class="zzc">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span>政务云</span>
+						  <span>设计作品</span>
+						  <span></span>
+					  </div>
+					  </p>
+					  </a>
+				  </li>
+				  
+			  	</ul>
+		  </div>
+		  <div class="two">
+			  	<p id="head">
+			        <!--<span>运营类作品</span>-->
+			    </p>
+			  	<ul>
+				  <li>
+					  <a href="duanwu.html">
+					  <p class="zzc_bj">
+						  <div class="zzc">
+							  <span></span>
+							  <span></span>
+							  <span></span>
+					          <span>doudou cash</span>
+					          <span>设计作品</span>
+							  <span></span>
+						  </div>
+					  </p>
+					  </a>
+				  </li>
+				  <li>
+					  <a href="caishen.html">
+					  <p class="zzc_bj">
+					  <div class="zzc">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span>智能家居</span>
+						  <span>设计作品</span>
+						  <span></span>
+					  </div>
+					  </p>
+					  </a>
+				  </li>
+			
+		  </div>
+		  <div class="three">
+			  	<p id="head">
+			        <!--<span>插画/平面类作品</span>-->
+			    </p>
+			  	<ul>
+				  <li>
+					  <a href="vis.html">
+					  <p class="zzc_bj">
+						  <div class="zzc">
+							  <span></span>
+							  <span></span>
+							  <span></span>
+					          <span>doudou cash</span>
+					          <span>设计作品</span>
+							  <span></span>
+						  </div>
+					  </p>
+					  </a>
+				  </li>
+				  <li>
+					  <a href="home.html">
+					  <p class="zzc_bj">
+					  <div class="zzc">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span>智能家居</span>
+						  <span>设计作品</span>
+						  <span></span>
+					  </div>
+					  </p>
+					  </a>
+				  </li>
+			
+		  </div>
+	  </div>
+        
+	        
+        
+        </div>
+
+  	</div>	
+</body>
+</html>

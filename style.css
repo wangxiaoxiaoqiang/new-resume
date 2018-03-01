@@ -23,6 +23,7 @@ a{ text-decoration:none; color:#000}
      overflow:hidden; 
      margin:0 auto;
      padding:0;
+     height:910px;
 
 }
 #home .handImg{
@@ -67,15 +68,15 @@ a{ text-decoration:none; color:#000}
  
 #about{ 
 	width: 1200px;
-    height: 760px;
+    height: 910px;
     position: relative;
     margin: 0 auto;
     padding: 0;
     background: url(img/bg2.png) no-repeat center 15px fixed;
  }
 .intro{
-    width: 369px;
-    height: 667px;
+	width: 372px;
+    height: 655px;
     position: absolute;
     left: 105px;
     top: 92px;
@@ -162,9 +163,10 @@ a{ text-decoration:none; color:#000}
 
 
 #experience{
-	height : 100%;
-	position : relative;
-	background-color:#ccc;
+    height: 100%;
+    position: relative;
+    /* background-color: #f4f4f6; */
+    background: url(img/bg.png) no-repeat fixed;
 }
 #head{
     width: 282px;
@@ -175,15 +177,15 @@ a{ text-decoration:none; color:#000}
  /*标题*/
 .one #head{
 	background: url(img/title1@2x.png) no-repeat center 59px;
-	background-size: 60%;
+	background-size: 72%;
 }
 .two  #head{
 	background: url(img/title2@2x.png) no-repeat center 59px;
-	background-size: 60%;
+	background-size: 72%;
 }
 .three #head{
 	background: url(img/title3@2x.png) no-repeat center 59px;
-	background-size: 60%;
+	background-size: 72%;
 }
 #head span{
     width: 152px;
@@ -204,12 +206,12 @@ a{ text-decoration:none; color:#000}
 	overflow : hidden;
 }
 #experience>div>ul>li{
-    margin-left: 3px;
+margin-left: 3px;
     margin-top: 40px;
     padding: 3px;
     border: 1px solid #eee;
     border-radius: 5px;
-    box-shadow: 0 0 9px 5px #98b3d5;
+    box-shadow: 0 0 7px 5px #1d2744;
     float: left;
     position: relative;
     overflow: hidden;
@@ -308,11 +310,11 @@ a{ text-decoration:none; color:#000}
 }
 .zzc:hover span:nth-child(4){
 	transition-duration: 1s;
-	left: 28%;
+	left: 45%;
 }
 .zzc:hover span:nth-child(5){
 	transition-duration: 1s;
-	right: 18%;
+	right: 45%;
 }
 .zzc:hover span:last-child{
 	transition-duration: 1s;
@@ -378,11 +380,11 @@ a{ text-decoration:none; color:#000}
 	margin-left: 27px;
 }
 #experience>div.three>ul>li:first-child>a{
-	background : url(img/vi@2x.png)no-repeat;
+	background : url(img/vi@2x.png) no-repeat;
 	background-size: contain;
 }
 #experience>div.three>ul>li:nth-child(2)>a{
-	background : url(img/fami1@2x.png) no-repeat;
+	background : url(img/practise@2x.png) no-repeat;
 	background-size: contain;
 }
 #experience>div.three>ul>li:nth-child(2){
